@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+*{
+    font-family: 'Cabin', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.page-bg {
+    background-color: #f6f9fe;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #1A129F;
+    font-weight: 300px;
+}
+
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    z-index: 50;
+}
+
+.text-color {
+    color: #ccc1e6;
+}
+
+::placeholder {
+    color: #bdbfc2 !important;
+}
+
+.footer-text{
+    color: #585859;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+@media screen and ( max-width: 547px) {
+    .form-mobile{
+        display: block;
+    }
+
+    .input-mobile {
+        width: 97% !important;
+        margin: 0 auto;
+        text-align: center;
+        padding: 28px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-btn{
+        width: 100%;
+        padding: 18px;
+    }
+
+
+    .mobile-height{
+        height: 125vh !important;
+    }
+
+    .navbar-nav {
+        padding-top: 20px;
+    }
+    .site-nav {
+        background-color: #ffffff;
+        box-shadow: 0 0 5px #00000015;
+        backdrop-filter: blur(3px);
+    }
+
+    .site-nav .nav-link {
+        color: #1A129F !important;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: 0 0 5px #00000015;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mb-nav{
+        width: 100%;
+    }
+
+
+}
